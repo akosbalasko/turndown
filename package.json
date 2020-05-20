@@ -1,16 +1,16 @@
 {
-  "name": "turndown",
+  "name": "turndown-performance-fixed",
   "description": "A library that converts HTML to Markdown",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "author": "Dom Christie",
   "main": "lib/turndown.cjs.js",
   "module": "lib/turndown.es.js",
   "jsnext:main": "lib/turndown.es.js",
   "browser": {
-    "jsdom": false
+    "domino": false
   },
   "dependencies": {
-    "jsdom": "^16.2.0"
+    "domino": "^2.1.5"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
